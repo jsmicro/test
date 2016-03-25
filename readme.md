@@ -192,7 +192,7 @@ console.log(test.color.bold(test.color.green('Green bold text')));
 
 ## Changelog
 
-#### **`v1.0.0 - Mar 25, 2016`**
+#### **`v1.0.0 - Mar 26, 2016`**
 
 *   Initial commit and first release.
 
