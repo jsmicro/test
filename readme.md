@@ -192,6 +192,9 @@ console.log(test.color.bold(test.color.green('Green bold text')));
 
 ## Changelog
 
+#### **`v1.0.1 - Mar 26, 2016`**
+*   Read arguments for message as `arguments` instead `[object Arguments]`
+
 #### **`v1.0.0 - Mar 26, 2016`**
 
 *   Initial commit and first release.

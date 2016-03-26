@@ -352,6 +352,9 @@ function getArgs ( param ) {
         else if ( 'function' === typeof arg ) {
             raws[ i ] = arg.toString();
         }
+        else if ( '[object Arguments]' === toString.call(arg) ) {
+            raws[ i ] = 'arguments';
+        }
         // Convert to JSON String if the argument is an array or an object.
         else {
             [ 'Array', 'Object' ].forEach(type => {

@@ -1,7 +1,7 @@
 'use strict';
 
 // Load the tester.
-var Test = require('./index');
+var Test = require('../index');
 
 // Create simple function to test.
 function isString ( arg ) {
