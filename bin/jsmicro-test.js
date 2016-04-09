@@ -3,8 +3,8 @@
 'use strict';
 
 // Load the tester
-var JSMicroTest = require('../index'),
-    path        = require('path');
+let JSMicroTest = require('../index');
+let path = require('path');
 
 // Export to global.
 global.JSMicroTest = JSMicroTest;

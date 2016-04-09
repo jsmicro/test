@@ -192,6 +192,12 @@ console.log(test.color.bold(test.color.green('Green bold text')));
 
 ## Changelog
 
+#### **`v1.0.2 - Apr 8, 2016`
+
+*   Improving simple test logs.
+*   Added `OBJECT.__jmtname__` to give name for simple test logs.
+*   Using JSCS for consitent code.
+
 #### **`v1.0.1 - Mar 26, 2016`**
 *   Read arguments for message as `arguments` instead `[object Arguments]`
 

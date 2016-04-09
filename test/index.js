@@ -4,21 +4,21 @@
 var Test = require('../index');
 
 // Create simple function to test.
-function isString ( arg ) {
+function isString( arg ) {
     return 'string' === typeof arg;
 }
 
 // Create simple expect function to test.
-function count ( a, b, c ) {
+function count( a, b, c ) {
     return (a + b + c);
 }
 
 // Create simple async function to test.
-function customTest ( accept, reject ) {
+function customTest( accept, reject ) {
     var name = null;
 
     setTimeout(() => {
-        done()
+        done();
     }, 1000);
 
     var done = function () {
@@ -26,16 +26,15 @@ function customTest ( accept, reject ) {
 
         if ( isString(name) ) {
             accept();
-        }
-        else {
+        } else {
             reject();
         }
-    }
+    };
 }
 
 // Create simple Test instance.
 Test(isString)
-    // Add correct spec.
+// Add correct spec.
     .accept('String')		// Passed
     // Add incorrect specs.
     .reject(10)				// Passed
@@ -50,12 +49,7 @@ Test(isString)
 
 // Create expect Test instance.
 Test(count)
-    // Add correct specs.
-    .expected(Test.args(10, 20, 30), 60) 	// Passed
-    .expected(Test.args(5, 5, 10), 20)		// Passed
-    // Add incorrect.
-    .unexpected(Test.args(5, 5), 10)		// Passed
-    // Add to Test queue.
+    .expected(Test.args(10, 20, 30), 60)
+    .expected(Test.args(5, 5, 10), 20)
+    .unexpected(Test.args(5, 5), 10)
     .queue();
-
-

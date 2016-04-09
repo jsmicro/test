@@ -2,7 +2,7 @@
 
 let eS = '\u001b[39m';
 let eB = '\u001b[22m';
-let fS = `\u001b[`
+let fS = `\u001b[`;
 
 let color = {
     green( text ) {
@@ -44,6 +44,6 @@ let color = {
     bold( text ) {
         return `${fS}1m${text}${eB}`;
     }
-}
+};
 
 module.exports = color;
