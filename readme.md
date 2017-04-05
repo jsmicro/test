@@ -9,13 +9,13 @@ A simple **`NodeJS`** test runner. This module is super simple test runner with 
 To use as module, install and save as dev dependency.
 
 ```bash
-npm install --save-dev jsmicro-test
+npm install --save-dev @jsmicro/test
 ```
 
 To use it as CLI app, install it to global.
 
 ```bash
-npm install -g jsmicro-test
+npm install -g @jsmicro/test
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ To use the tester, simply load the module and create the test instance, then add
 
 ```js
 // Load the tester.
-var test = require('jsmicro-test');
+var test = require('@jsmicro/test');
 
 // Create test instance and add test specs.
 test(HANDLER, NAME)[METHODS];
@@ -55,7 +55,7 @@ jsmicro-test file-to-test.js
 ```js
 'use strict';
 
-var Test = require('jsmicro-test');
+var Test = require('@jsmicro/test');
 
 function isString ( arg ) {
     return 'string' === typeof arg;
@@ -182,7 +182,7 @@ Object contains functions to colorize string.
 **Example**:
 
 ```js
-var test = require('jsmicro-test')
+var test = require('@jsmicro/test')
 
 console.log(test.color.green('Green color'));
 console.log(test.color.bold(test.color.green('Green bold text')));

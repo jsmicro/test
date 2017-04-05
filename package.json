@@ -1,5 +1,5 @@
 {
-    "name"       : "jsmicro-test",
+    "name"       : "@jsmicro/test",
     "version"    : "1.0.2",
     "description": "A Simple JSMicro Test Helper",
     "main"       : "index.js",
