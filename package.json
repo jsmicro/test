@@ -1,28 +1,28 @@
 {
-    "name"       : "@jsmicro/test",
-    "version"    : "1.0.2",
-    "description": "A Simple JSMicro Test Helper",
-    "main"       : "index.js",
-    "bin"        : {
-        "jsmicro-test": "./bin/jsmicro-test.js"
-    },
-    "scripts"    : {
-        "test": "node test"
-    },
-    "repository" : {
-        "type": "git",
-        "url" : "git+ssh://git@github.com/jsmicro/test.git"
-    },
-    "keywords"   : [
-        "simple",
-        "javascript",
-        "unit",
-        "test"
-    ],
-    "author"     : "Nanang Mahdaen El Agung <nanang@mahdaen.name> (http://mahdaen.name)",
-    "license"    : "MIT",
-    "bugs"       : {
-        "url": "https://github.com/jsmicro/test/issues"
-    },
-    "homepage"   : "https://github.com/jsmicro/test#readme"
+  "name": "@jsmicro/test",
+  "version": "1.0.3",
+  "description": "A Simple JSMicro Test Helper",
+  "main": "index.js",
+  "bin": {
+    "jsmicro-test": "./bin/jsmicro-test.js"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsmicro/test.git"
+  },
+  "keywords": [
+    "simple",
+    "javascript",
+    "unit",
+    "test"
+  ],
+  "author": "Nanang Mahdaen El Agung <nanang@mahdaen.name> (http://mahdaen.name)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsmicro/test/issues"
+  },
+  "homepage": "https://github.com/jsmicro/test#readme"
 }
